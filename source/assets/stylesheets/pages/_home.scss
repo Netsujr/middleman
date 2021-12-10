@@ -1,1 +1,42 @@
 // Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'BioRhyme', serif !important;
+}
+
+body {
+  background-image: url();
+  background-color: rgb(198, 198, 198);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header-container {
+  padding: 40px;
+  margin: 10px 0px;
+  text-align: center;
+  p {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
