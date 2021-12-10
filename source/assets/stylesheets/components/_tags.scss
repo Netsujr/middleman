@@ -1,0 +1,21 @@
+.nav-button-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-button:hover {
+  color: rgb(139, 139, 139);
+}
+
+.nav-buttons {
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  padding: 0 16px;
+  position: relative;
+  font-size: 16px;
+}
